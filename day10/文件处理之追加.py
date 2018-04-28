@@ -1,0 +1,16 @@
+# f=open("sjjj","a",encoding="utf-8")
+# f.write("2018")
+# f.close()
+
+f=open("sjjj","r",encoding="utf-8")
+# f1=f.readline()
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+print(f.readline())
+f.close()
+
+a1=open("sjjj","a",encoding="utf-8")
+a1.write("\n我是追加")
+a1.close()
